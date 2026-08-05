@@ -4,28 +4,28 @@
 #
 #    pip-compile --output-file=requirements.txt --strip-extras pyproject.toml
 #
-linkify-it-py==2.0.3
+linkify-it-py==2.1.0
     # via markdown-it-py
-markdown-it-py==4.0.0
+markdown-it-py==4.2.0
     # via
     #   mdit-py-plugins
     #   rich
     #   textual
-mdit-py-plugins==0.5.0
+mdit-py-plugins==0.6.1
     # via textual
 mdurl==0.1.2
     # via markdown-it-py
-platformdirs==4.5.1
+platformdirs==4.11.0
     # via textual
-pygments==2.19.2
+pygments==2.20.0
     # via
     #   rich
     #   textual
-rich==14.2.0
+rich==15.0.0
     # via textual
-textual==7.2.0
+textual==8.2.8
     # via bookdb-tui (pyproject.toml)
-typing-extensions==4.15.0
+typing-extensions==4.16.0
     # via textual
-uc-micro-py==1.0.3
+uc-micro-py==2.0.0
     # via linkify-it-py

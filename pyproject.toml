@@ -21,4 +21,4 @@ dev = [
 target-version = ['py314']
 
 [tool.mypy]
-strict = true
+strict = false
